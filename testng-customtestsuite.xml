@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite">
+<test verbose="2" name="Influence Types test" allow-return-values="true">
+<classes>
+<class name="com.profiler.data.InfluenceTypes" />
+</classes>
+</test> 
+<test verbose="2" name="Influence Strength test" allow-return-values="true">
+<classes>
+<class name="com.profiler.data.InfluenceStrength" />
+</classes>
+</test>
+<test verbose="2" name="Organization Position test" allow-return-values="true">
+<classes>
+<class name="com.profiler.data.OrganizationPosition" />
+</classes>
+</test>  
+</suite>

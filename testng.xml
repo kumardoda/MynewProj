@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HeartBeat Test Suite">
+
+
+<!--
+
+	<test name="Users-RolesTest" allow-return-values="true">
+		<classes>
+			<class name="com.profiler.scripts.UserManager" />
+			<class name="com.profiler.scripts.RoleManager" />
+		</classes>
+	</test>
+	<test name="ContractMgtTest-P" allow-return-values="true">
+		<classes>
+			<class name="com.profiler.contractmgt.ContractManagementTest" />
+			<class name="com.profiler.contractmgt.CountryPaymentThreshold" />
+			<class name="com.profiler.contractmgt.TypePaymentThreshold" />
+		</classes>
+	</test>
+	<test name="TemplateTest-V" allow-return-values="true">
+		<classes>
+			<class name="com.profiler.scripts.TemplateTest" />
+		</classes>
+	</test>
+
+	<test name="ClassificationTest-H" allow-return-values="true">
+		<classes>
+			<class name="com.profiler.classification.Brand1" />
+			<class name="com.profiler.classification.Brand2" />
+			<class name="com.profiler.classification.ProfileRoleTest" />
+			<class name="com.profiler.classification.TherapeuticAreaTest" />
+		</classes>
+	</test>
+-->
+	<test name="DataTest-R" allow-return-values="true">
+		<classes>
+			<class name="com.profiler.data.RejectionReason" />
+
+			<class name="com.profiler.data.ClinicalActivityType" />
+	
+
+		</classes>
+	</test>
+	<!-- ###### PHASE 02 ###### -->
+
+	<!-- <test name="Users-RolesTest" allow-return-values="true"> <classes> 
+		<class name="com.profiler.scripts.UserManager" /> <class name="com.profiler.scripts.RoleManager" 
+		/> </classes> </test> <test name="TemplateTest-V" allow-return-values="true"> 
+		<classes> <class name="com.profiler.scripts.TemplateTest" /> </classes> </test> 
+		<test name="DataTest-R" allow-return-values="true"> <packages> <package name="com.profiler.data" 
+		/> </packages> </test> <test name="DataTest-U" allow-return-values="true"> 
+		<classes> <class name="com.profiler.data.DataModule" /> </classes> </test> 
+		<test name="ContractMgtTest-P" allow-return-values="true"> <classes> <class 
+		name="com.profiler.contractmgt.ContractManagementTest" /> <class name="com.profiler.contractmgt.CountryPaymentThreshold" 
+		/> <class name="com.profiler.contractmgt.TypePaymentThreshold" /> </classes> 
+		</test> <test name="ClassificationTest-H" allow-return-values="true"> <classes> 
+		<class name="com.profiler.classification.ProfileRoleTest" /> <class name="com.profiler.classification.TherapeuticAreaTest" 
+		/> </classes> </test> <test name="ClassificationTest-S" allow-return-values="true"> 
+		<classes> <class name="com.profiler.classification.Brand1" /> <class name="com.profiler.classification.Brand2" 
+		/> </classes> </test> -->
+
+
+
+	<!-- ###### PHASE 01 ###### -->
+
+	<!-- <test name="Test1" allow-return-values="true"> <classes> <class name="com.profiler.scripts.Dynamic2ColumnSection" 
+		/> <class name="com.profiler.scripts.ProfileDashborad" /> </classes> </test> 
+		<test name="Test2" allow-return-values="true"> <classes> <class name="com.profiler.scripts.ProfileTest" 
+		/> <class name="com.profiler.scripts.DynamicLinefield" /> </classes> </test> 
+		<test name="templateTest" allow-return-values="true"> <classes> <class name="com.profiler.scripts.TemplateTest" 
+		/> </classes> </test> <test name="profileEducation" allow-return-values="true"> 
+		<classes> <class name="com.profiler.scripts.AddEducationToProfile" /> <class 
+		name="com.profiler.scripts.EditEducationInProfile" /> <class name="com.profiler.scripts.DeleteEducationInProfile" 
+		/> </classes> </test> <test name="flowTest" allow-return-values="true"> <classes> 
+		<class name="com.profiler.scripts.FlowTest" /> </classes> </test> -->
+
+
+
+</suite>
+
